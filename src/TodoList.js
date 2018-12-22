@@ -1,7 +1,7 @@
 import React, { Component,Fragment } from 'react';
 import TodoItem from './TodoItem';
-import Layout from './layout'
-import PostList from './bbs/PostList'
+// import Layout from './layout'
+// import PostList from './bbs/PostList'
 import './style.css'
 
 class TodoList extends Component {
@@ -73,9 +73,6 @@ class TodoList extends Component {
           <button className='red-btn' onClick={this.handleBtnClick}>add</button>
         </div>
         <ul>{this.getTodoItems()}</ul>
-        <Layout />
-        <h3>BBS论坛实例</h3>
-        <PostList />
       </Fragment>
     );
   }
