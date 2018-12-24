@@ -3,6 +3,7 @@ import TodoList from './TodoList';
 import Layout from './layout'
 import PostList from './bbs/PostList'
 import CommentApp from './commentApp/CommontApp'
+import Index from './clock/Index'
 
 class ReactApp extends Component{
     constructor(props){
@@ -24,6 +25,7 @@ class ReactApp extends Component{
                 <h3>BBS论坛实例</h3>
                 <PostList />
                 <CommentApp />
+                <Index />
             </Fragment>
         )
     }
