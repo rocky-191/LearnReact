@@ -8,7 +8,7 @@ class CommentList extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="commentLi">
                 <label className="commentName">{this.props.userName}:</label>
                 <span>{this.props.commentValue}</span>
             </div>

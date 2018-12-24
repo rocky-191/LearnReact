@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types'
 import './comment.css';
 
 class CommentInput extends Component {
+    //增加类型验证
+    static propTypes = {
+        onSubmit: PropTypes.func
+    }
+
     constructor(props) {
         super(props);
         this.state = {
