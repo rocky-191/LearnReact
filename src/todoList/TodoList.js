@@ -1,8 +1,5 @@
 import React, { Component,Fragment } from 'react';
 import TodoItem from './TodoItem';
-// import Layout from './layout'
-// import PostList from './bbs/PostList'
-import './style.css'
 
 class TodoList extends Component {
 

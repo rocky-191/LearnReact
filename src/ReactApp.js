@@ -1,6 +1,6 @@
 import React, { Component,Fragment } from 'react';
-import TodoList from './TodoList';
-import Layout from './layout'
+import TodoList from './todoList/TodoList';
+import Layout from './layout/layout'
 import PostList from './bbs/PostList'
 import CommentApp from './commentApp/CommontApp'
 import Index from './clock/Index'
