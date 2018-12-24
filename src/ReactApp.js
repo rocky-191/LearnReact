@@ -22,7 +22,6 @@ class ReactApp extends Component{
             <Fragment>
                 <TodoList />
                 <Layout />
-                <h3>BBS论坛实例</h3>
                 <PostList />
                 <CommentApp />
                 <Index />

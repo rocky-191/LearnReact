@@ -66,7 +66,7 @@ class PostList extends Component{
     render(){
         return (
             <div className='container'>
-                <h2>帖子列表</h2>
+                <h3>帖子列表</h3>
                 <ul>
                     {
                         this.state.posts.map(item=>
