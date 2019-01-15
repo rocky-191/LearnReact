@@ -4,6 +4,7 @@ import Layout from './layout/layout'
 import PostList from './bbs/PostList'
 import CommentApp from './commentApp/CommontApp'
 import Index from './clock/Index'
+import Tab from './tabs/tab'
 
 class ReactApp extends Component{
     constructor(props){
@@ -25,6 +26,7 @@ class ReactApp extends Component{
                 <PostList />
                 <CommentApp />
                 <Index />
+                <Tab />
             </Fragment>
         )
     }
