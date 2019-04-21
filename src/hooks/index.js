@@ -1,4 +1,5 @@
 import React,{ useState } from 'react'
+import MyReducer from './MyReducer';
 
 export default function index() {
     const [count,setCount]=useState(0);
@@ -30,6 +31,10 @@ export default function index() {
                     return <li key={f} onClick={()=>setFruit(f)}>{f}</li>
                 })}
             </ul>
+            <div>
+                <h2>hooks实例usereducers</h2>
+                <MyReducer />
+            </div>
         </div>
     )
 }

@@ -51,7 +51,7 @@ class Tab extends Component {
     }
     render() {
         return (
-            <div>
+            <div style={{overflow:'hidden'}}>
                 <h3>tab实例</h3>
                 <ul className="ui-tabs">
                     {this.getItems()}
