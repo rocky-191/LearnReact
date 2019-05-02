@@ -1,9 +1,9 @@
-*{
+.layout *{
     margin: 0;
     padding: 0;
 }
 
-ul,li{
+.layout ul,li{
     list-style: none
 }
 
@@ -39,8 +39,4 @@ ul,li{
 .layoutSy li:hover{
     border:4px solid red;
     z-index: 10;
-}
-
-.layoutSy li:nth-child(3n+1){
-    /* margin:0; */
 }

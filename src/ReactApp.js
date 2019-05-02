@@ -1,11 +1,6 @@
-import React, { Component,Fragment } from 'react';
-import TodoList from './todoList/TodoList';
-import Layout from './layout/layout'
-import PostList from './bbs/PostList'
-import CommentApp from './commentApp/CommontApp'
-import Index from './clock/Index'
-import Tab from './tabs/tab';
-import Hook from './hooks/index';
+import React, { Component } from 'react';
+import MainNav from './MainNav/index';
+import MyRouter from './MyRouter/index';
 
 class ReactApp extends Component{
     constructor(props){
@@ -21,15 +16,17 @@ class ReactApp extends Component{
 
     render(){
         return (
-            <Fragment>
-                <TodoList />
+            <div>
+                {/* <TodoList />
                 <Layout />
                 <PostList />
                 <CommentApp />
                 <Index />
                 <Tab />
-                <Hook />
-            </Fragment>
+                <Hook /> */}
+                <MainNav />
+                <MyRouter />
+            </div>
         )
     }
 }

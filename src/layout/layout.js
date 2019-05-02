@@ -33,7 +33,7 @@ class Layout extends Component{
 
     render(){
         return (
-            <div>
+            <div className='layout'>
                 <h3>{this.state.title}</h3>
                 <ul className='layoutSy'>
                     {this.getList()}
