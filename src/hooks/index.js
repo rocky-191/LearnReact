@@ -1,6 +1,7 @@
 import React,{ useState } from 'react'
 import MyReducer from './MyReducer';
 import MyRef from './MyRef';
+import MyEffect from "./MyEffect";
 
 export default function index() {
     const [count,setCount]=useState(0);
@@ -39,6 +40,10 @@ export default function index() {
             <div>
                 <h2>hooks实例useref</h2>
                 <MyRef />
+            </div>
+            <div>
+                <h2>hooks实例useEffect</h2>
+                <MyEffect />
             </div>
         </div>
     )
